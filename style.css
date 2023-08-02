@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&family=Roboto&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+}
+.header {
+  height: 88%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.logo {
+  width: 202.576px;
+  height: 60.526px;
+}
+.header-left {
+  width: 20%;
+  background: #000;
+}
+.home-bg {
+  background-color: #282828;
+}
+.home-bg > img,
+.home-bg > p {
+  background-color: transparent;
+}
+.heart-bg {
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 1px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.print-bg {
+  width: 37.057px;
+  height: 37.057px;
+  background-color: #004638;
+  border-radius: 5px;
+}
+.plus-small {
+  background-color: white;
+  width: 29.645px;
+  height: 29.645px;
+}
+.header-rigth {
+  width: 80%;
+  height: 100%;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+}
+.nav-left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #131313;
+}
+.nav-right {
+  border-radius: 33px;
+  background: #0a0a0a;
+}
+.nav-artist {
+  background-color: transparent;
+  border-radius: 37px;
+}
+.main-heading {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -1.14px;
+}
+.mg-cards {
+  width: 24vw;
+  height: 90px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  border-radius: 4px;
+  background: #303030;
+}
+.mg-img {
+  width: 30%;
+  height: 100%;
+}
+.like-bg {
+  border-radius: 4px 0px 0px 4px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+
+.h2-left {
+  font-size: 29px;
+  font-weight: 700;
+}
+.h2-right {
+  color: #b3b3b3;
+  font-size: 17px;
+  font-weight: 700;
+}
+.block-block{
+    width: 70vw;
+}
+.artist-cards {
+    background: #181818;
+ width: 15vw;
+  border-radius: 14px;
+ }
+.card-mg {
+    border-radius: 20px;
+  width: 15vw;
+  height: 180px;
+  background: transparent;
+}
+
+.cd-title {
+font-size: 20px;
+font-weight: 500;
+align-self: baseline;
+}
+.cd-text {
+    color: #B3B3B3;
+font-size: 12px;
+font-weight: 500;
+align-self: baseline;
+}
+.footer {
+  width: 100vw;
+  font-family: DM Sans;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  background: #181818;
+  z-index: 200;
+}
+.f-left > section > h6 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.f-left > section > p {
+  margin-left: 0px;
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bar {
+  width: 611px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #535353;
+  background-image: url("./assets/footer-mid/Rectangle\ 19.svg");
+}
+.rigth-mid-2{
+    opacity: 0.10000000149011612;
+    background-image: url("./assets/playlist/Line\ 6.svg");
+}

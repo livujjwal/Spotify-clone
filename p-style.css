@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+.header {
+  width: 100vw;
+  background: linear-gradient(180deg, #90aea7 0%, #000 100%);
+}
+.logo {
+  width: 202.576px;
+  height: 60.526px;
+}
+.header-left {
+  width: 16%;
+  height: 100%;
+  background: #000;
+}
+.header-rigth {
+  width: 84%;
+}
+.header-left > p {
+  opacity: 0.699999988079071;
+  width: 20%;
+  background: #000;
+}
+.home-bg {
+  border-radius: 5px;
+  background-color: #282828;
+}
+.home-bg > img,
+.home-bg > p {
+  background-color: transparent;
+}
+.opacity {
+  opacity: 0.699999988079071;
+}
+.heart-bg {
+  opacity: 0.699999988079071;
+  width: 37.057px;
+  height: 37.057px;
+  border-radius: 1px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.plus-small {
+  opacity: 0.699999988079071;
+  background-color: white;
+  width: 37.057px;
+  height: 37.057px;
+}
+.hl-img {
+  width: 250px;
+  height: 250px;
+}
+.bar {
+  width: 611px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #535353;
+  background-image: url("./assets/footer-mid/Rectangle\ 19.svg");
+}
+
+.header-bg {
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+}
+.rigth-mid-1 {
+  width: 100%;
+  background-color: transparent;
+}
+.rigth-mid-2 {
+  box-decoration-break: dotted 2px #000;
+  opacity: 0.699999988079071;
+  font-size: 12px;
+  font-weight: 400;
+}
+.mid-2-txt-1 {
+  margin: 0%;
+  margin-left: 30vw;
+}
+.mid-2-txt {
+  margin: 0%;
+  margin-left: 22vw;
+}
+.bar {
+  width: 40vw;
+  height: 5px;
+  border-radius: 2.273px;
+  background: #b3b3b3;
+}
+
+.photo {
+  width: 280px;
+  height: 280px;
+}
+.text-1 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.text-2 {
+  font-size: 80px;
+  font-weight: 900;
+}
+.text-3 {
+  opacity: 0.699999988079071;
+  font-size: 14px;
+  font-weight: 400;
+}
+.text-4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.text-4 > p {
+  opacity: 0.699999988079071;
+  font-size: 15px;
+  font-weight: 400;
+}
+.card-col {
+  background-color: #000;
+}
+.bg-card-1 {
+  border-radius: 5px;
+  background-color: #282828;
+}
+.sect-1-txt {
+  font-size: 15px;
+  font-weight: 600;
+}
+.sect-1-txt {
+  font-size: 13px;
+  font-weight: 400;
+}
+.sect-2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.sect-3 {
+  font-family: Noto Sans CJK KR;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.699999988079071;
+}
+.footer {
+  width: 100vw;
+  font-family: DM Sans;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  background: #181818;
+  z-index: 200;
+}
+.f-left > section > h6 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.f-left > section > p {
+  margin-left: 0px;
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 700;
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--header -->
+    <section class="header d-flex vw-100">
+      <!--header-left -->
+      <section class="header-left d-flex flex-column  my-0">
+        <img class="logo ms-2 me-5 my-3 p-0" src="./assets/left/Spotify logo.svg " alt="no-pic" />
+        <section class="h-left-B1 d-flex flex-column">
+          <section class="py-1 ps-2 d-flex align-content-center home-bg">
+            <img
+              class="align-self-baseline p-2"
+              src="./assets/left/fi-ss-home.svg"
+              alt="no-pic"
+            />
+            <p  class="m-0 align-self-center ps-2">Home</p>
+          </section>
+          <section class="py-1 ps-2 d-flex align-content-center">
+            <img
+              class="align-self-baseline p-2"
+              src="./assets/left/fi-rs-search.svg"
+              alt="no-pic"
+            />
+            <p class="m-0 align-self-center ps-2">Search</p>
+          </section>
+          <section class="py-1 ps-2 d-flex align-content-center">
+            <img
+              class="align-self-baseline p-2"
+              src="./assets/left/library.svg"
+              alt="no-pic"
+            />
+            <p class="m-0 align-self-center ps-2">Your Library</p>
+          </section>
+        </section>
+        <section class="h-left-B2 p-2 d-flex flex-column">
+          <section class="px-2 py-1  d-flex align-content-center">
+            <img
+              class="plus-small align-self-baseline"
+              src="./assets/left/plus.svg"
+              alt="no-pic"
+            />
+            <p class="m-0 align-self-center ps-3">Create Playlist</p>
+          </section>
+          <section
+            class="px-2  py-2 d-flex align-content-center"
+          >
+              <img class="heart-bg align-self-baseline p-2 "
+                src="./assets/left/fi-ss-heart.svg"
+                style="background-color: transparent"
+                alt="no-pic"
+              />
+            <p class="m-0 align-self-center ps-3">Liked Songs</p>
+          </section>
+          <section
+            class="px-2 py-1  d-flex align-content-center"
+          >
+            <img
+              class="print-bg align-self-baseline p-2"
+              src="./assets/left/print.svg"
+              alt="no-pic"
+            />
+            <p class="m-0 align-self-center ps-3">Your Episodes</p>
+          </section>
+        </section>
+        <section class="h-left-B3 d-flex flex-column m-3">
+          <p  class="m-0 align-self-baseline  pb-2">FAV</p>
+          <p  class="m-0 align-self-baseline">Daily Mix 1</p>
+          <p  class="m-0 align-self-baseline">Discover Weekly</p>
+          <p  class="m-0 align-self-baseline">Hindi</p>
+          <p  class="m-0 align-self-baseline">DJ/Classic</p>
+          <p  class="m-0 align-self-baseline">EDM/Popular</p>
+        </section>
+        <section
+          class="h-left-B4 p-3 d-flex align-items-center"
+        >
+          <img
+            class="pe-2"
+            src="./assets/left/grommet-icons_install-option.svg"
+            alt="no-pic"
+          />
+          <p class="m-0 align-self-center ps-2">Install App</p>
+        </section>
+      </section>
+      <!--header-rigth -->
+      <section class="header-rigth">
+        <nav class=" py-0 m-0 d-flex align-items-center justify-content-between">
+            <section class="m-1 d-flex align-items-center">
+                <img class="nav-left m-2" src="./assets/right/fi-rr-angle-small-left (1).svg" alt="no-image">
+                <img class="nav-left m-2" src="./assets/right/fi-rr-angle-small-right.svg" alt="no-image">
+            </section>
+            
+            <section class=" d-flex align-items-center nav-right justify-content-between">
+                <img class="nav-artist" src="./assets/right/Ellipse 3.svg" alt="no-image">
+                <p class="m-0 align-self-center ps-2 bg-transparent">Angel</p>
+                <img class="bg-transparent m-2" src="./assets/right/fi-ss-caret-down (1).svg" alt="no-image">
+            </section>
+        </nav>
+        <p class="my-0 ms-4 px-1 main-heading test">Good morning</p>
+        <section class="d-flex align-items-center mx-4 justify-content-between">
+            <section class="d-flex mg-cards align-items-center p-0 m-2">
+                    <img  class="like-bg mg-img align-self-baseline p-4" src="./assets/left/fi-ss-heart.svg" alt="no-image">
+                      <p class=" bg-transparent align-self-center ps-5 py-0 m-0">Liked Songs</p>
+            </section>
+            <section class="d-flex mg-cards  align-items-center p-0 m-2">
+                    <img  class="like-bg mg-img align-self-center p-4" src="./assets/left/fi-ss-heart.svg" alt="no-image">
+                      <p class=" bg-transparent align-self-center ps-5 py-0 m-0">Liked Songs</p>
+            </section>
+            <section class="d-flex mg-cards  align-items-center p-0 m-2">
+                    <img  class="like-bg mg-img align-self-baseline p-4" src="./assets/left/fi-ss-heart.svg" alt="no-image">
+                      <p class=" bg-transparent align-self-center ps-5 py-0 m-0">Liked Songs</p>
+            </section>
+        </section>
+        <section class="d-flex align-items-center mx-4 justify-content-between">
+            <section class="d-flex mg-cards align-items-center p-0 m-2">
+                    <img  class="like-bg mg-img align-self-baseline p-4" src="./assets/left/fi-ss-heart.svg" alt="no-image">
+                      <p class=" bg-transparent align-self-center ps-5 py-0 m-0">Liked Songs</p>
+            </section>
+      </section>
+      <section class="h-2 d-flex align-items-center justify-content-between m-4 my-0">
+        <p class="h2-left">Shows you might like</p>
+        <p class="h2-right">SEE ALL</p>
+      </section>
+      <section class="artist-block mx-4 d-flex ">
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+      </section>
+      <!-- <section class="artist-block mx-4 d-flex "></section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+        <section class="d-flex flex-column justify-content-center align-items-center artist-cards mx-3">
+            <img src="./assets/Rectangle 16 (1).svg" class="card-mg mt-3 px-3" alt="no-image">
+            <p class="cd-title ms-3 my-0">Weekly Motivatio...</p>
+            <p class="cd-text ms-3 my-2">Ben Ina Scott</p>
+        </section>
+      </section> -->
+    </section>
+    <!-- footer -->
+    <footer class="footer d-flex justify-content-between mx-auto">
+      <section
+        class="f-left d-flex align-items-center p-2 justify-content-between"
+      >
+        <img src="./assets/footer-left/f-pic.svg" alt="no-image" />
+        <section class="d-flex flex-column mx-3">
+          <h6>Dreaming On</h6>
+          <p>NEFFEX</p>
+        </section>
+        <img
+          src="./assets/footer-left/bx_bxs-heart.svg"
+          class="pb-3"
+          alt="no-image"
+        />
+      </section>
+      <section class="f-mid">
+        <section
+          class="mid-up d-flex align-items-center justify-content-center"
+        >
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/raphael_shuffle.svg"
+            alt="no-image"
+          />
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/bx_bx-skip-previous.svg"
+            alt="no-image"
+          />
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/gridicons_play.svg"
+            alt="no-image"
+          />
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/bx_bx-skip-previous (1).svg"
+            alt="no-image"
+          />
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/Group (2).svg"
+            alt="no-image"
+          />
+        </section>
+        <section class="mid-down d-flex align-items-center">
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/2_11.svg"
+            alt=" no=image"
+          />
+          <section class="bar mx-2 d-flex align-items-center mb-0 pb-0">
+            <img
+              class="pe-0"
+              src="./assets/footer-mid/Rectangle 18.svg"
+              alt="no-image"
+            />
+          </section>
+          <img
+            class="mx-2"
+            src="./assets/footer-mid/2_42.svg"
+            alt=" no=image"
+          />
+        </section>
+      </section>
+      <section class="f-right d-flex justify-content-evenly">
+        <img
+          class="px-2"
+          src="./assets/footer-right/ph_microphone-stage.svg"
+          alt="no-image"
+        />
+        <img
+          class="px-2"
+          src="./assets/footer-right/carbon_query-queue.svg"
+          alt="no-image"
+        />
+        <img
+          class="px-2"
+          src="./assets/footer-right/carbon_laptop.svg"
+          alt="no-image"
+        />
+        <img
+          class="px-2"
+          src="./assets/footer-right/Group (1).svg"
+          alt="no-image"
+        />
+        <img
+          class="px-2"
+          src="./assets/footer-right/bar-f-right.svg"
+          alt="no-image"
+        />
+        <img
+          class="px-2"
+          src="./assets/footer-right/Group (1).svg"
+          alt="no-image"
+        />
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
