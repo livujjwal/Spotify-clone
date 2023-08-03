@@ -8,21 +8,39 @@
 
 .header {
   width: 100vw;
+  height: 90vh;
   background: linear-gradient(180deg, #90aea7 0%, #000 100%);
 }
-.logo {
-  width: 202.576px;
-  height: 60.526px;
-}
 .header-left {
-  width: 16%;
-  height: 100%;
+  flex: 1;
+  height: 90vh;
   background: #000;
+  overflow: hidden;
 }
 .header-rigth {
-  width: 84%;
+  flex: 5;
+  height: 90vh;
+  overflow: hidden;
+}
+.footer {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  background: #181818;
+  z-index: 200;
+  overflow: hidden;
+}
+
+.logo {
+  width: 90%;
+  height: 10%;
 }
 .header-left > p {
+  font-size: 14;
+  font-weight: 700;
   opacity: 0.699999988079071;
   width: 20%;
   background: #000;
@@ -38,50 +56,69 @@
 .opacity {
   opacity: 0.699999988079071;
 }
-.heart-bg {
-  opacity: 0.699999988079071;
-  width: 37.057px;
-  height: 37.057px;
-  border-radius: 1px;
-  background: linear-gradient(
-    135deg,
-    #4000f4 0%,
-    #603aed 22.48%,
-    #7c6ee6 46.93%,
-    #979fe1 65.71%,
-    #a2b3de 77.68%,
-    #adc8dc 88.93%,
-    #c0ecd7 100%
-  );
-}
-.plus-small {
-  opacity: 0.699999988079071;
-  background-color: white;
-  width: 37.057px;
-  height: 37.057px;
-}
-.hl-img {
-  width: 250px;
-  height: 250px;
-}
-.bar {
-  width: 611px;
-  height: 5px;
-  border-radius: 2.5px;
-  background-color: #535353;
-  background-image: url("./assets/footer-mid/Rectangle\ 19.svg");
+.playlist-h {
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.header-bg {
-  width: 100%;
-  background-color: rgb(44, 44, 44);
+.left-img {
+  margin-right: 3vw;
+  margin-top: 5vh;
+  width: 15vw;
+  height: 30vh;
+  overflow: hidden;
 }
+.rigth-up{
+ height: 30vh;
+ margin-top: 7vh;
+}
+.right-mid-bg{
+  width: 100%;
+ height: 10vh;
+ background-color: rgb(44, 44, 44);
+}
+  
+.rigth-down{
+    width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
+.photo {
+  width: 18vw;
+  height: 100%;
+}
+.text{
+  height: 80%;
+  margin-top: 4vh;
+}
+.text-1 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.text-2 {
+  font-size: 70px;
+  font-weight: 900;
+}
+.text-3 {
+  opacity: 0.699999988079071;
+  font-size: 14px;
+  font-weight: 400;
+}
+.text-4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.text-5{
+  opacity: 0.699999988079071;
+  font-size: 15px;
+  font-weight: 400;
+}
+
 .rigth-mid-1 {
   width: 100%;
   background-color: transparent;
 }
 .rigth-mid-2 {
-  box-decoration-break: dotted 2px #000;
   opacity: 0.699999988079071;
   font-size: 12px;
   font-weight: 400;
@@ -94,46 +131,23 @@
   margin: 0%;
   margin-left: 22vw;
 }
-.bar {
-  width: 40vw;
-  height: 5px;
-  border-radius: 2.273px;
-  background: #b3b3b3;
+.v-line{
+  border-top: 2px dotted #282828;;
+  width: 100%;
+  padding-top: 10px;
 }
-
-.photo {
-  width: 280px;
-  height: 280px;
+.bg{
+  background-image: linear-gradient(to bottom ,rgb(44,53,51),rgb(12,15,14));
 }
-.text-1 {
-  font-size: 13px;
-  font-weight: 500;
-}
-.text-2 {
-  font-size: 80px;
-  font-weight: 900;
-}
-.text-3 {
-  opacity: 0.699999988079071;
-  font-size: 14px;
-  font-weight: 400;
-}
-.text-4 {
-  font-size: 15px;
-  font-weight: 700;
-}
-.text-4 > p {
-  opacity: 0.699999988079071;
-  font-size: 15px;
-  font-weight: 400;
-}
-.card-col {
-  background-color: #000;
-}
-.bg-card-1 {
+.card-bg-1 {
   border-radius: 5px;
+  
   background-color: #282828;
 }
+.card-col{
+  background-color: #000;
+}
+
 .sect-1-txt {
   font-size: 15px;
   font-weight: 600;
@@ -152,24 +166,24 @@
   font-weight: 400;
   opacity: 0.699999988079071;
 }
-.footer {
-  width: 100vw;
-  font-family: DM Sans;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  display: flex;
-  background: #181818;
-  z-index: 200;
-}
-.f-left > section > h6 {
-  margin-bottom: 0px;
-  font-size: 18px;
-  font-weight: 700;
-}
-.f-left > section > p {
-  margin-left: 0px;
-  color: #b3b3b3;
+
+.f-left-txt {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
+}
+.f-left-txt-2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.bar-1 {
+  width: 40vw;
+  height: 5px;
+  border-radius: 2.273px;
+  background: #b3b3b3;
+}
+.bar-2 {
+  width: 8vw;
+  height: 5px;
+  border-radius: 2.273px;
+  background: #b3b3b3;
 }
