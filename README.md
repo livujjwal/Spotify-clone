@@ -1,5 +1,5 @@
 # Spotify-clone
-Spotify Clone
+
 This is a Spotify Clone project, a web application that replicates some of the basic UI design of the popular music streaming service, Spotify. The project was built using HTML, CSS, and Bootstrap.
 
 ![main](https://github.com/livujjwal/Spotify-clone/assets/132872642/541d2e7d-5c6f-4132-8128-903d47bb6da2)
