@@ -15,7 +15,7 @@
   flex: 1;
   height: 90vh;
   background: #000;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .header-rigth {
   flex: 5;
@@ -23,15 +23,15 @@
   overflow: hidden;
 }
 .footer {
-  width: 100%;
-  height: 10%;
+  width: 100vw;
+  height: 10vh;
   position: fixed;
   left: 0px;
   bottom: 0px;
   display: flex;
   background: #181818;
   z-index: 200;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .logo {
@@ -88,28 +88,30 @@
   height: 100%;
 }
 .text{
-  height: 80%;
   margin-top: 4vh;
 }
 .text-1 {
+  margin: 0px;
   font-size: 13px;
   font-weight: 500;
 }
 .text-2 {
+  margin: 0px;
   font-size: 70px;
   font-weight: 900;
 }
 .text-3 {
-  opacity: 0.699999988079071;
+  margin: 0px;
   font-size: 14px;
   font-weight: 400;
 }
 .text-4 {
+  margin: 0px;
   font-size: 15px;
   font-weight: 700;
 }
 .text-5{
-  opacity: 0.699999988079071;
+  margin: 0px;
   font-size: 15px;
   font-weight: 400;
 }
@@ -125,11 +127,15 @@
 }
 .mid-2-txt-1 {
   margin: 0%;
-  margin-left: 30vw;
+  margin-left: 2vw;
 }
-.mid-2-txt {
+.mid-2-txt-2 {
   margin: 0%;
-  margin-left: 22vw;
+  margin-left: 25vw;
+}
+.mid-2-txt-3 {
+  margin: 0%;
+  margin-left: 23vw;
 }
 .v-line{
   border-bottom: 2px dotted #282828;;
@@ -188,24 +194,43 @@
   border-radius: 2.273px;
   background: #b3b3b3;
 }
+.margin-footer-1{
+  margin: 0.1vh 0.7vw ;
+  
+}
+.margin-footer-2{
+  margin: 3vh 0.8vw ;
+  
+}
 
-@media screen and (max-width: 1360px) and (min-width: 991px) {
+ @media screen and (max-width: 1360px) and (min-width: 991px) {
   .header {
     width: 100%;
     height: 90%;
   }
   .header-left {
-    width: 25%;
-    height: 100%;
+    flex: 2;
     background: #000;
   }
   .header-rigth {
-    width: 75%;
-    height: 100%;
+    flex: 7;
   }
   .footer {
     width: 100%;
     height: 10%;
+  }
+  
+  .photo {
+    width: 260px;
+    height: 230px;
+  }
+  .text-2{
+       font-size: 70px;
+  }
+  
+  .left-img{
+    margin-left: 0px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 991px) and (min-width: 767px) {
@@ -214,36 +239,143 @@
     height: 90%;
   }
   .header-left {
-    width: 30%;
-    height: 100%;
+    flex: 2;
     background: #000;
   }
   .header-rigth {
-    width: 70%;
-    height: 100%;
+    flex: 5;
   }
   .footer {
     width: 100%;
     height: 10%;
   }
-}
-@media screen and (max-width: 767px) {
+  .photo {
+    width: 240px;
+    height: 230px;
+  }
+  .text-2{
+       font-size: 50px;
+  }
+  
+  .left-img{
+    width: 200px;
+  }
+} 
+@media screen and (max-width: 767px) and (min-width:625px) {
   .header {
-    width: 100%;
-    height: 90%;
+    width: 100vw;
+    height: 90vh;
   }
   .header-left {
     background: #000;
-    width: 35%;
-    height: 100%;
+    flex: 2;
   }
   .header-rigth {
-    width: 65%;
-    height: 100%;
+    flex: 6;
   }
   .footer {
-    flex-wrap: wrap;
-    width: 100%;
-    height: 10%;
+    justify-content: center !important;
+    width: 100vw;
+    height: 10vh;
   }
+  .f-left{
+    margin: 0% !important;
+  }
+  .photo {
+    width: 200px;
+    height: 100%;
+  }
+  .left-img{
+    width: 160px;
+  }
+.bar-1 {
+  width: 20vw;
+  height: 4px;
+}
+.bar-2 {
+  width: 5vw;
+  height: 4px;
+}
+
+.card-bg-1{
+  flex-wrap: wrap !important;
+ /* flex-direction: column !important; */
+ align-content: baseline !important;
+}
+.card-horizntal {
+  flex-wrap: wrap !important;
+  /* flex-direction: column !important; */
+}
+
+.text-2{
+  font-size: 40px;
+}
+.text-3{
+  font-size: 12px;
+}
+.text-4{
+  font-size: 8px;
+}
+.text-5{
+font-size: 10px;
+}
+}
+@media screen and (max-width: 625px) {
+  .header {
+    width: 100vw;
+    height: 90vh;
+  }
+  .header-left {
+    background: #000;
+    flex: 2;
+  }
+  .header-rigth {
+    flex: 5;
+  }
+  .footer {
+    justify-content: center !important;
+    width: 100vw;
+    height: 10vh;
+  }
+  .f-left{
+    margin: 0% !important;
+  }
+  .photo {
+    width: 200px;
+    height: 100%;
+  }
+  .left-img{
+    width: 160px;
+  }
+.bar-1 {
+  width: 20vw;
+  height: 4px;
+}
+.bar-2 {
+  width: 5vw;
+  height: 4px;
+}
+
+.card-bg-1{
+  flex-wrap: wrap !important;
+ /* flex-direction: column !important; */
+ align-content: baseline !important;
+}
+.card-horizntal {
+  flex-wrap: wrap !important;
+  /* flex-direction: column !important; */
+}
+
+.text-2{
+  font-size: 30px;
+}
+.text-3{
+  font-size: 8px;
+}
+.text-4{
+  font-size: 7px;
+}
+.text-5{
+font-size: 7px;
+}
 }
